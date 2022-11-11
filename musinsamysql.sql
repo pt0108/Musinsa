@@ -137,6 +137,15 @@ select *
     group by brand
     order by count(*) desc
     limit 10;
+    
+# 바로 위의 질문을 수정한 쿼리
+# 랭킹 중 할인을 가장 많이 하는 브랜드 top10
+select brand, count(*) '할인 진행 제품수'
+	from musinsa
+	where dis_price != 0
+    group by brand
+    order by count(*) desc
+    limit 10;
 	
     
 # 브랜드별 아우터 중 쿠폰 할인 브랜드(1페이지)
