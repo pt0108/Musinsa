@@ -16,3 +16,10 @@
 
 
 겨울을 맞이해, 무신사 스토어에서 아우터 카테고리의 월간 랭킹을 웹 스크래핑하고 궁금했던 질문들을 MySQL로 검색해보았다.
+
+
+파일 설명 :   
+- 1110_-_1115_Mini_Project.pdf : Notion에 정리해둔 내용을 pdf로 업로드
+- musinsa_2.ipynb : 웹스크래핑 최종 코드가 있는 쥬피터 노트북 파일
+- musinsamysql.sql : mysql 파일
+- pymysql.ipynb : pymysql을 사용해서 데이터를 저장한 코드가 있는 쥬피터 노트북 파일
